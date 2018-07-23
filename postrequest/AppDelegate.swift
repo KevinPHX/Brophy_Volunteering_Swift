@@ -13,8 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//        window = UIWindow()
+//
+//        window?.makeKeyAndVisible()
+//        //let navController = UINavigationController(rootViewController: LoginPageViewController())
+//        window?.rootViewController = ViewController()
         // Override point for customization after application launch.
         return true
     }

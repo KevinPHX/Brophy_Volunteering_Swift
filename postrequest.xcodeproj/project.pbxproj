@@ -12,6 +12,13 @@
 		50D6BEDE20F6C7DB009CC4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D6BEDC20F6C7DB009CC4E7 /* Main.storyboard */; };
 		50D6BEE020F6C7DD009CC4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D6BEDF20F6C7DD009CC4E7 /* Assets.xcassets */; };
 		50D6BEE320F6C7DD009CC4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D6BEE120F6C7DD009CC4E7 /* LaunchScreen.storyboard */; };
+		50D6BEEB20F6CB1C009CC4E7 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D6BEEA20F6CB1C009CC4E7 /* LoginPageViewController.swift */; };
+		50D6BF0B20FD3978009CC4E7 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D6BF0A20FD3977009CC4E7 /* ProfilePageViewController.swift */; };
+		50D6BF0D20FE894A009CC4E7 /* PendingRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D6BF0C20FE894A009CC4E7 /* PendingRequestsViewController.swift */; };
+		50E4AC3920FE925400B56C64 /* AcceptedRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4AC3820FE925400B56C64 /* AcceptedRequestsViewController.swift */; };
+		50E4AC3B20FE948B00B56C64 /* PastRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4AC3A20FE948B00B56C64 /* PastRequestsViewController.swift */; };
+		50E4AC3D20FEA05800B56C64 /* MyPendingRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4AC3C20FEA05800B56C64 /* MyPendingRequestViewController.swift */; };
+		50E4AC3F20FFF53900B56C64 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E4AC3E20FFF53900B56C64 /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		50D6BEDF20F6C7DD009CC4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D6BEE220F6C7DD009CC4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50D6BEE420F6C7DD009CC4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D6BEEA20F6CB1C009CC4E7 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		50D6BF0A20FD3977009CC4E7 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		50D6BF0C20FE894A009CC4E7 /* PendingRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRequestsViewController.swift; sourceTree = "<group>"; };
+		50E4AC3820FE925400B56C64 /* AcceptedRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedRequestsViewController.swift; sourceTree = "<group>"; };
+		50E4AC3A20FE948B00B56C64 /* PastRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRequestsViewController.swift; sourceTree = "<group>"; };
+		50E4AC3C20FEA05800B56C64 /* MyPendingRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPendingRequestViewController.swift; sourceTree = "<group>"; };
+		50E4AC3E20FFF53900B56C64 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,16 @@
 		50D6BED720F6C7DB009CC4E7 /* postrequest */ = {
 			isa = PBXGroup;
 			children = (
+				50E4AC3A20FE948B00B56C64 /* PastRequestsViewController.swift */,
+				50E4AC3C20FEA05800B56C64 /* MyPendingRequestViewController.swift */,
+				50D6BF0C20FE894A009CC4E7 /* PendingRequestsViewController.swift */,
 				50D6BED820F6C7DB009CC4E7 /* AppDelegate.swift */,
 				50D6BEDA20F6C7DB009CC4E7 /* ViewController.swift */,
 				50D6BEDC20F6C7DB009CC4E7 /* Main.storyboard */,
+				50E4AC3820FE925400B56C64 /* AcceptedRequestsViewController.swift */,
+				50D6BF0A20FD3977009CC4E7 /* ProfilePageViewController.swift */,
+				50E4AC3E20FFF53900B56C64 /* RequestViewController.swift */,
+				50D6BEEA20F6CB1C009CC4E7 /* LoginPageViewController.swift */,
 				50D6BEDF20F6C7DD009CC4E7 /* Assets.xcassets */,
 				50D6BEE120F6C7DD009CC4E7 /* LaunchScreen.storyboard */,
 				50D6BEE420F6C7DD009CC4E7 /* Info.plist */,
@@ -135,8 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D6BEEB20F6CB1C009CC4E7 /* LoginPageViewController.swift in Sources */,
+				50D6BF0D20FE894A009CC4E7 /* PendingRequestsViewController.swift in Sources */,
+				50E4AC3D20FEA05800B56C64 /* MyPendingRequestViewController.swift in Sources */,
 				50D6BEDB20F6C7DB009CC4E7 /* ViewController.swift in Sources */,
+				50E4AC3920FE925400B56C64 /* AcceptedRequestsViewController.swift in Sources */,
+				50E4AC3F20FFF53900B56C64 /* RequestViewController.swift in Sources */,
 				50D6BED920F6C7DB009CC4E7 /* AppDelegate.swift in Sources */,
+				50E4AC3B20FE948B00B56C64 /* PastRequestsViewController.swift in Sources */,
+				50D6BF0B20FD3978009CC4E7 /* ProfilePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
